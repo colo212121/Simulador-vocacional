@@ -3,7 +3,7 @@ import { Settings } from "llamaindex";
 import readline from "readline";
 
 const ollamaLLM = new Ollama({
-  model: "gemma3:1b",
+  model: "qwen3:1.7b",
   temperature: 0.75,
 });
 
